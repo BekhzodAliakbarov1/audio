@@ -17,6 +17,7 @@ function App() {
 
   useEffect(() => {
     handleListen()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isListening])
 
   const handleListen = () => {
